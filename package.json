@@ -1,0 +1,15 @@
+{
+  "name": "code-test-api",
+  "version": "1.0.0",
+  "description": "Secondary code test for MeldCX",
+  "main": "index.js",
+  "repository": "https://github.com/MeldCX/code-test-api",
+  "author": "Tristan Matthias <tristan@meldcx.com>",
+  "license": "MIT",
+  "script": {
+      "start": "PORT=8080 node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
