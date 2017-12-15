@@ -6,10 +6,13 @@
   "repository": "https://github.com/MeldCX/code-test-api",
   "author": "Tristan Matthias <tristan@meldcx.com>",
   "license": "MIT",
-  "script": {
-      "start": "PORT=8080 node index.js"
+  "scripts": {
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2"
   }
 }
